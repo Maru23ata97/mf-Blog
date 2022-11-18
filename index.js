@@ -33,5 +33,8 @@ const apiData = await fetch(
 console.log(apiData);
 const dataDiv = document.getElementById('data');
 dataDiv.innerHTML = card;
+
+let cardList="<p>Coucou</p>";
+document.getElementById("test").innerHTML= cardList;
 })();
 
