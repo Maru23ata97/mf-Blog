@@ -23,42 +23,44 @@ const card = (title, description, image) => `
   const myData = [
     {
       title: 'Le monde du web',
-      description: 'Le monde du web est très vaste, car plusieurs langages est utilisées mais qui est complémentaire. HTML est le squelette, CSS est la peau, le muscle represente JavaScript',
+      description:
+        'Le monde du web est très vaste, car plusieurs langages sont utilisés. Afin de découvrir les différentes fonctionnalités de ces langages, nous avons pu naviguer au travers de leur fonctionnement…',
       image:
-        'https://www.photo-paysage.com/albums/userpics/10001/thumb_Les_rayons_du_soleil_a_travers_les_feuillages_dans_la_foret.JPG',
+        'https://res.cloudinary.com/nmg-assets/image/upload/c_scale,f_auto,h_564,q_auto/v1/Img/FICHEPRATIQUE/2020/8/352240/Quelles-sont-veritables-utilites-API-dans-monde-numerique--LE.jpg',
     },
     {
       title: 'Le langage du HTML, CSS, JavaSccript',
-      description: "A la découverte des fonctionnalités des trois langages... j'ai ",
+      description:
+        "À la découverte des fonctionnalités des trois langages... J'ai pu découvrir la complexité de créer une page web... Pour pouvoir comprendre ce que c'est le JavaScript, nous avons réalisé un cube avec deux boutons différents...",
       image:
-        'https://www.photo-paysage.com/albums/userpics/10001/thumb_Les_rayons_du_soleil_a_travers_les_feuillages_dans_la_foret.JPG',
+        'https://kinsta.com/fr/wp-content/uploads/sites/4/2021/08/comment-devenir-un-developpeur-web-1024x512.jpeg',
     },
     {
-      title: 'La création template',
-      description: 'Découuverte et création template.... ',
+      title: "Qu'es-ce qu'un Framework ? ",
+      description:
+        "Un framework est un ensemble d'outils et de composants logiciels organisés conformément à un plan d'architecture et des patterns, l'ensemble formant ou promouvant un squelette  de programme...",
       image:
-        'https://www.photo-paysage.com/albums/userpics/10001/thumb_Les_rayons_du_soleil_a_travers_les_feuillages_dans_la_foret.JPG',
+        'https://www.freecodecamp.org/news/content/images/size/w2000/2022/09/cover-template--5-.png',
     },
     {
-      title: 'Création du PortFolio',
-      description: 'La création du Portfolio est ...',
+      title: "Création d'un PortFolio grâce aux connaissances acquises",
+      description:
+        "Le Portfolio est un outil qui peut être un jour pourra remplacer le curriculum vitae. Les connaissances acquises lors de la réalisation d'un cube et du jeu morpion nous a permis d'acquérir des connaissances et des techniques afin de réaliser notre propre portfolio… ",
       image:
-        'https://www.photo-paysage.com/albums/userpics/10001/thumb_Les_rayons_du_soleil_a_travers_les_feuillages_dans_la_foret.JPG',
+        'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/greenThemeLight.png',
     },
     {
-      title: '',
-      description: 'Donne moi',
-      image:
-        'https://www.photo-paysage.com/albums/userpics/10001/thumb_Les_rayons_du_soleil_a_travers_les_feuillages_dans_la_foret.JPG',
+      title: "Qu'es-ce que le Jsonplaceholder",
+      description:"La réalisation d'un blog est très complexe et nécessite de la donnée qu'on récupère sur le site Jsonplaceholder. Ce site propose de la donnée factice. Il est grandement compatible avec différents frameworks et bibliothèques JavaScript comme Backbone, AngularJS.... ",
+      image: 'https://apilist.fun/images/social/api/jsonplaceholder.png',
     },
     {
-      title: 'Retourne moi',
-      description: 'Donne moi',
+      title: 'Impréssionnant ! Non ?',
+      description:'Si en me posait la question "Est-il facile de créer un site internet ?" avant que je fasse la formation Moorea Code Camp.Ma réponse sera "Bien sûr que OUI !", grâce à cette formation,je peux répondre avec affirmation que créer un site internet n\'est pas facileJe suis fière d\'acquérir encore plus de connaissance dans ce domaine qui peut être un jour, je pourrais me reconvertir dans le domaine du Web developer.',
       image:
-        'https://www.photo-paysage.com/albums/userpics/10001/thumb_Les_rayons_du_soleil_a_travers_les_feuillages_dans_la_foret.JPG',
+        'https://thumbs.dreamstime.com/b/vous-%C3%AAtes-impressionnant-sur-la-pierre-117350879.jpg',
     },
   ];
-
 
   let cardList = '';
 
@@ -67,7 +69,7 @@ const card = (title, description, image) => `
     document.getElementById('card-list').innerHTML += card(
       post.title,
       post.description,
-      post.image
+      post.image,
     );
   });
 })();
