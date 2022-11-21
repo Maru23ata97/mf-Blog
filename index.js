@@ -36,7 +36,7 @@ const card = (title, description, image) => `
         'https://kinsta.com/fr/wp-content/uploads/sites/4/2021/08/comment-devenir-un-developpeur-web-1024x512.jpeg',
     },
     {
-      title: "Qu'es-ce qu'un Framework ? ",
+      title: "Qu'est-ce qu'un Framework ? ",
       description:
         "Un framework est un ensemble d'outils et de composants logiciels organisés conformément à un plan d'architecture et des patterns, l'ensemble formant ou promouvant un squelette  de programme...",
       image:
@@ -50,13 +50,15 @@ const card = (title, description, image) => `
         'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/greenThemeLight.png',
     },
     {
-      title: "Qu'es-ce que le Jsonplaceholder",
-      description:"La réalisation d'un blog est très complexe et nécessite de la donnée qu'on récupère sur le site Jsonplaceholder. Ce site propose de la donnée factice. Il est grandement compatible avec différents frameworks et bibliothèques JavaScript comme Backbone, AngularJS.... ",
+      title: "Qu'est-ce que le Jsonplaceholder",
+      description:
+        "La réalisation d'un blog est très complexe et nécessite de la donnée qu'on récupère sur le site Jsonplaceholder. Ce site propose de la donnée factice. Il est grandement compatible avec différents frameworks et bibliothèques JavaScript comme Backbone, AngularJS.... ",
       image: 'https://apilist.fun/images/social/api/jsonplaceholder.png',
     },
     {
       title: 'Impréssionnant ! Non ?',
-      description:'Si en me posait la question "Est-il facile de créer un site internet ?" avant que je fasse la formation Moorea Code Camp.Ma réponse sera "Bien sûr que OUI !", grâce à cette formation,je peux répondre avec affirmation que créer un site internet n\'est pas facileJe suis fière d\'acquérir encore plus de connaissance dans ce domaine qui peut être un jour, je pourrais me reconvertir dans le domaine du Web developer.',
+      description:
+        'Si en me posait la question "Est-il facile de créer un site internet ?" avant que je fasse la formation Moorea Code Camp.Ma réponse sera "Bien sûr que OUI !", grâce à cette formation,je peux répondre avec affirmation que créer un site internet n\'est pas facileJe suis fière d\'acquérir encore plus de connaissance dans ce domaine qui peut être un jour, je pourrais me reconvertir dans le domaine du Web developer.',
       image:
         'https://thumbs.dreamstime.com/b/vous-%C3%AAtes-impressionnant-sur-la-pierre-117350879.jpg',
     },
@@ -69,7 +71,7 @@ const card = (title, description, image) => `
     document.getElementById('card-list').innerHTML += card(
       post.title,
       post.description,
-      post.image,
+      post.image
     );
   });
 })();
