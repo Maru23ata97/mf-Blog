@@ -75,3 +75,18 @@ const card = (title, description, image) => `
     );
   });
 })();
+
+(async () => {
+  await fetch(
+    'https://api.airtable.com/v0/appAmNmzTMmL6BigS/tblrQ3Zh0BTOvqLfE',
+    {
+      headers: {
+        Authorization: 'Bearer key6fjkFBOYXl39BO',
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
+      },
+    }
+  )
+    .then((response) => response.json())
+    .then((json) => console.log(json));
+})();
